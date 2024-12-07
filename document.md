@@ -262,7 +262,7 @@ Engage with international academic OSPOs to share best practices, collaborate on
 
 <!-- Add in acknowledgements - individuals and institution logos -->
 
-<!-- FOOTNOTES AND REFERENCES -->
+## References
 
 [^1]: ‘The Open Source Definition’, Open Source Initiative. Accessed: Dec. 07, 2024\. \[Online\]. Available: [https://opensource.org/osd](https://opensource.org/osd)\[1\]  
 [^2]: ‘2024 Open Source Security and Risk Analysis Report (OSSRA) | Black Duck’. Accessed: Dec. 07, 2024\. \[Online\]. Available: [https://www.blackduck.com/blog/open-source-trends-ossra-report.html](https://www.blackduck.com/blog/open-source-trends-ossra-report.html)  
