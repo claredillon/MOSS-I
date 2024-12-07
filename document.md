@@ -10,7 +10,7 @@ toc: true,
 toc-own-page: true,
 titlepage: true,
 titlepage-rule-color: "360049"
-titlepage-background: "backgrounds/background1.pdf"
+titlepage-background: "assets/backgrounds/background1.pdf"
 ...
 
 # Framework for Managing University Open Source Software
