@@ -11,6 +11,8 @@ toc-own-page: true,
 titlepage: true,
 titlepage-rule-color: "360049"
 titlepage-background: "assets/backgrounds/background1.pdf"
+bibliograpy: "bibliography.bib"
+biblio-title: "References"
 ...
 
 # Framework for Managing University Open Source Software
@@ -227,6 +229,8 @@ vel pede inter si.
 Tamen condeturque saxa Pallorque num et ferarum promittis inveni lilia iuvencae
 adessent arbor. Florente perque at condeturque saxa et ferarum promittis tendebat. Armos nisi obortas refugit me.
 
+To date GIBBON has been used for image analysis and visualization [@Moerman2012a], continuum mechanics [@Moerman2016], soft tissue biomechanics [@Takaza2013] [@Cooney2015], subject-specific and inverse FEA of soft biological soft tissue in-vivo [@Moerman2017] [@Sengeh2016], and automated generation of parametric scalable models of the lumbar spine [@Lavecchia2018]. The author's personal research with GIBBON is currently focused on subject-specific computational modeling for the automated generation of 3D printable prosthetic devices with optimized and spatially varying mechanical behavior [@Moerman2016c].
+
 Et nepotes poterat, se qui. Euntem ego pater desuetaque aethera Maeandri, et
 [Dardanio geminaque](http://example.com#Dardanio_geminaque) cernit. Lassaque poenas
 nec, manifesta $\pi r^2$ mirantia captivarum prohibebant scelerato gradus unusque
@@ -235,3 +239,5 @@ dura.
 - Permulcens flebile simul
 - Iura tum nepotis causa motus diva virtus Acrota. Tamen condeturque saxa Pallorque num et ferarum promittis inveni lilia iuvencae adessent arbor. Florente perque at ire arcum.
 
+\newpage
+# References
