@@ -1,9 +1,9 @@
 ---
 title: "Framework for Managing University Open Source Software "
-author: [Kevin]
+author: [Kevin Moerman, Clare Dillon]
 date: "05/12/2024"
 subject: "Markdown"
-keywords: [Markdown, Example]
+keywords: [Open source, Irish Universities]
 subtitle: "NORF Project for Irish Universities"
 lang: "en"
 toc: true,
@@ -13,6 +13,9 @@ titlepage-rule-color: "360049"
 titlepage-background: "assets/backgrounds/background1.pdf"
 bibliograpy: "bibliography.bib"
 biblio-title: "References"
+doi: "10.5281/zenodo.3235286"
+colorlinks: true
+boxlinks: true
 ...
 
 # Framework for Managing University Open Source Software
@@ -45,6 +48,7 @@ Lorem markdownum Letoia, et alios: figurae flectentem annis aliquid Peneosque ab
 esse, obstat gravitate. Obscura atque coniuge, per de coniunx, sibi **medias
 commentaque virgine** anima tamen comitemque petis, sed. In Amphion vestros
 hamos ire arceor mandere spicula, in licet aliquando.
+[GIBBON](https://www.gibboncode.org/)
 
 ```java
 public class Example implements LoremIpsum {
