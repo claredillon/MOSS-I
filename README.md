@@ -1,7 +1,12 @@
 
-
+Using biblatex:
 ```
-pandoc assets/document.md -o assets/document.pdf --template assets/eisvogel.tex --listings
+pandoc document.md --output=output/document.pdf --template assets/templates/eisvogel.tex --listings --number-sections --biblatex --bibliography=bibliography.bib 
+```
+
+Using citeproc:
+```
+pandoc document.md --output=output/document.pdf --template assets/templates/eisvogel.tex --listings --number-sections --bibliography=bibliography.bib --citeproc 
 ```
 
 
@@ -17,7 +22,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: docker://pandoc/extra:3.5
         with:
-          args: assets/document.md --output=output/document.pdf --template assets/eisvogel.latex --listings --number-sections -V block-headings 
+          args: document.md --output=output/document.pdf --template assets/templates/eisvogel.tex --listings --number-sections --bibliography=bibliography.bib --citeproc 
       - uses: actions/upload-artifact@v4
         with:
           name: output

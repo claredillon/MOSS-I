@@ -1,37 +1,46 @@
 ---
 title: "Framework for Managing University Open Source Software "
 author:
-- name: Michael C. Sachs
-  affiliation: "1"
-  orcid: 0000-0003-0918-3766
-- name: Homer J. Simpson
-  affiliation: "1,2"
-  orcid: 0000-0003-0918-3766
-- name: Michael C. Sachs
-  affiliation: "1"
-  orcid: 0000-0003-0918-3766
-- name: Michael C. Sachs
-  affiliation: "1"
-  orcid: 0000-0003-0918-3766
-- name: Michael C. Sachs
-  affiliation: "1"
-  orcid: 0000-0003-0918-3766
-- name: Michael C. Sachs
-  affiliation: "1"
-  orcid: 0000-0003-0918-3766
-- name: Michael C. Sachs
-  affiliation: "1"
-  orcid: 0000-0003-0918-3766
-- name: Michael C. Sachs
-  affiliation: "1"
-  orcid: 0000-0003-0918-3766
+- name: Aoife Tierney
+  affiliation: 1
+- name: Carlos Tighe
+  affiliation: 2
+- name: Clare Dillon
+  affiliation: 3,6
+- name: Conor Morris 
+  affiliation: 4
+- name: Ian Gallivan
+  affiliation: 3
+- name: John Whelan
+  affiliation: 1
+- name: Kevin Moerman
+  affiliation: 3,6
+  orcid: 0000-0003-3768-4269
+- name: Klaas-Jan Stol
+  affiliation: 5,6
+- name: Lorraine Morgan
+  affiliation: 3
+- name: Martina Prendergast
+  affiliation: 4,6
+- name: Michael Meagher
+  affiliation: 4
+- name: Noel O'Connor
+  affiliation: 2
+- name: Patrick Healy
+  affiliation: 4,6  
 affiliations:
   - index: 1
-    name: Laboratório Nacional de Luz Síncrotron, Brazil
+    name: Trinity College Dublin
   - index: 2
-    name: Gadjah Mada University, Indonesia
+    name: Insight Centre
   - index: 3
-    name: Technische Universitaet Hamburg, Germany
+    name: University of Galway
+  - index: 4
+    name: University of Limerick
+  - index: 5
+    name: University College Cork
+  - index: 6
+    name: LERO, the SFI Centre for Software Research
 header-right: "v1.0.0, 05/12/2024"
 subject: "Markdown"
 keywords: [Open source, Irish Universities]
@@ -44,10 +53,12 @@ titlepage-rule-color: "360049"
 titlepage-background: "assets/backgrounds/background1.pdf"
 bibliograpy: "bibliography.bib"
 biblio-title: "References"
-biblatex: true
+biblatex: true,
 doi: "10.5281/zenodo.3235286"
 colorlinks: true,
 orcidicon: "assets/images/icons/ORCID-iD_icon_16x16.png"
+license_text: "CC BY-SA 4.0"
+license_link: "https://creativecommons.org/licenses/by-sa/4.0/"
 ...
 
 # Framework for Managing University Open Source Software
