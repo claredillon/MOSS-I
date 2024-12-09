@@ -48,7 +48,6 @@ biblatex: true
 doi: "10.5281/zenodo.3235286"
 colorlinks: true,
 orcidicon: "assets/images/icons/ORCID-iD_icon_16x16.png"
-biblio-style: ieee
 ...
 
 # Framework for Managing University Open Source Software
