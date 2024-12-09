@@ -1,7 +1,38 @@
 ---
 title: "Framework for Managing University Open Source Software "
-author: [Kevin Moerman, Clare Dillon]
-date: "05/12/2024"
+author:
+- name: Michael C. Sachs
+  affiliation: "1"
+  orcid: 0000-0003-0918-3766
+- name: Homer J. Simpson
+  affiliation: "1,2"
+  orcid: 0000-0003-0918-3766
+- name: Michael C. Sachs
+  affiliation: "1"
+  orcid: 0000-0003-0918-3766
+- name: Michael C. Sachs
+  affiliation: "1"
+  orcid: 0000-0003-0918-3766
+- name: Michael C. Sachs
+  affiliation: "1"
+  orcid: 0000-0003-0918-3766
+- name: Michael C. Sachs
+  affiliation: "1"
+  orcid: 0000-0003-0918-3766
+- name: Michael C. Sachs
+  affiliation: "1"
+  orcid: 0000-0003-0918-3766
+- name: Michael C. Sachs
+  affiliation: "1"
+  orcid: 0000-0003-0918-3766
+affiliations:
+  - index: 1
+    name: Laboratório Nacional de Luz Síncrotron, Brazil
+  - index: 2
+    name: Gadjah Mada University, Indonesia
+  - index: 3
+    name: Technische Universitaet Hamburg, Germany
+header-right: "v1.0.0, 05/12/2024"
 subject: "Markdown"
 keywords: [Open source, Irish Universities]
 subtitle: "NORF Project for Irish Universities"
@@ -13,9 +44,11 @@ titlepage-rule-color: "360049"
 titlepage-background: "assets/backgrounds/background1.pdf"
 bibliograpy: "bibliography.bib"
 biblio-title: "References"
+biblatex: true
 doi: "10.5281/zenodo.3235286"
-colorlinks: true
-boxlinks: true
+colorlinks: true,
+orcidicon: "assets/images/icons/ORCID-iD_icon_16x16.png"
+biblio-style: ieee
 ...
 
 # Framework for Managing University Open Source Software
@@ -244,4 +277,5 @@ dura.
 - Iura tum nepotis causa motus diva virtus Acrota. Tamen condeturque saxa Pallorque num et ferarum promittis inveni lilia iuvencae adessent arbor. Florente perque at ire arcum.
 
 \newpage
+
 # References
