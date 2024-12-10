@@ -49,7 +49,6 @@ affiliations:
 header-right: "v1.0.0, 10/12/2024"
 subject: "Markdown"
 keywords: [Open source, Irish Universities]
-subtitle: "NORF Project for Irish Universities"
 lang: "en"
 toc: true,
 toc-own-page: true,
@@ -98,7 +97,7 @@ Open source software (OSS) refers to software with source code that is made publ
 Open Source Hardware is also an important topic with related opportunities and challenges, but for the purposes of this document we are focusing on open source software. 
 
 # Why Is Open Source So Important?
-![Why open source is important.](assets/images/MOSSI-OS-Importance.jpg)
+![Why open source is so important.](assets/images/MOSSI-OS-Importance.jpg)
 
 **Open source is in everything, everywhere**. Open source enables the frictionless reuse of software. As a result, it’s used everywhere. The majority of the code in all code bases is open source  [@OSSRA_1].. Therefore, even if a project isn’t intended to be open source, it’s crucial to understand the risks, obligations, and security considerations that come with adopting open source projects to ensure responsible use and compliance. Understanding OSS adoption is essential for maintaining secure and efficient software ecosystems.
 
@@ -146,7 +145,7 @@ Open Source Hardware is also an important topic with related opportunities and c
 
 ## Education Excellence & Student Success
 
-**Open Source Enables Hands-on Learning.** By engaging with open source projects, students gain real-world practical experience in their field of study, learn collaboration and problem-solving skills. The focus on mentorship within open source communities provides additional learning opportunities, personalised guidance and peer support.  
+**Open Source Enables Hands-on Learning.** By engaging with open source projects, students gain real-world practical experience in their field of study, learn collaboration and problem-solving skills. The focus on mentorship within open source communities provides additional learning opportunities, personalised guidance, and peer support.  
 **Open Source Increases Employability.** As open source makes up most of the world’s software today, skills related to the use, contribution to, creation of, and maintenance of open source are in high demand in industry.  Open source contributions provide real-world evidence of skills valued by recruiters. Universities that help students build open source skills prepare them for future careers in real-world software development environments. 
 
 ## Openness & Inclusivity
@@ -182,16 +181,16 @@ As open source becomes central to open science and research, universities must e
 There is a diverse set of people who can interact with an OSS framework, including:
 
 - **University Leadership:** leadership support of an OSS framework is essential to ensure that it integrates into strategic planning, academic programs, and operational management along with promoting openness and innovation across the institution.  
-- **Researchers**: Open source software is a critical output of research activities. It should be noted that this is not confined to computer science or other technical domains. Open source software is often now produced across all domains including health sciences, arts and the humanities. Many researchers also contribute to OSS in their own time.   
+- **Researchers**: Open source software is a critical output of research activities. It should be noted that this is not confined to computer science or other technical domains. Open source software is often now produced across all domains including health sciences, arts, and the humanities. Many researchers also contribute to OSS in their own time.   
 - **Students**: Students may be asked to use, contribute to or create OSS projects as part of their curricula. Many students also contribute to OSS in their own time or organize hackathons with OSS outputs.  
 - **University IT**: Whereas university OSS frameworks typically do not cover procurement within university IT departments, they sometimes can include any supports IT departments may offer staff and students in using or creating OSS, for example provision of code hosting platforms such as GitHub or automated building or testing.   
 - **Tech Transfer Office**: OSS strategies can be informed to permit a variety of commercialisation pathways.    
 - **Impact Officers**: Those who catalogue/chart University's impact activities have an interest in tracking OSS activity and impact.  
-- **University Staff**: Additional university staff are also interested in an institution's OSS framework including those in the Office of the Vice President for Research, Legal Affairs, Technology Transfer Office, Research Support Services, Libraries, and staff involved in innovation activites. These professional support services play crucial roles in enabling and governing open source activities across the institution.
+- **University Staff**: Additional university staff are also interested in an institution's OSS framework including those in the Office of the Vice President for Research, Legal Affairs, Technology Transfer Office, Research Support Services, Libraries, and staff involved in innovation activities. These professional support services play crucial roles in enabling and governing open source activities across the institution.
 
 # Open Source Roles in a University Context
 
-It is important to consider that individuals in a university may engage with open source in different ways. As open source framework should address various use cases, acknowledging the challenge posed by varying coding principles and standards of maintainability across different institutions and departments. Any framework should ensure that principles are open for department-specific nuances while emphasising good coding and technology practices. The framework must be flexible enough to accommodate diverse disciplinary contexts, recognizing that the needs and technical expertise of researchers in computer science will differ substantially from those in humanities, medicine, or social sciences, while maintaining appropriate standards for each domain.
+It is important to consider that individuals in a university may engage with open source in different ways. An open source framework should address various use cases, acknowledging the challenge posed by varying coding principles and standards of maintainability across different institutions and departments. Any framework should ensure that principles are open for department-specific nuances while emphasising good coding and technology practices. The framework must be flexible enough to accommodate diverse disciplinary contexts, recognizing that the needs and technical expertise of researchers in computer science will differ substantially from those in humanities, medicine, or social sciences, while maintaining appropriate standards for each domain.
 
 **Using OSS in Projects ("Consumers")**  
 Open source software is widely used by students, researchers, and university staff. Responsible use of OSS requires an understanding of license choices and their implications, especially if the OSS is incorporated into a derivative research output that may later be released. 
@@ -291,20 +290,39 @@ The establishment of an open source framework is pivotal for universities aiming
 
 ## Recommendations for Future NORF Projects
 
-1. **Application of the Framework in Irish Universities**  
-Pilot the implementation of the recommended open source framework in one or more Irish universities, leveraging Ireland’s leadership in establishing Europe’s first academic Open Source Program Office (OSPO). This pilot could focus on integrating open source principles into strategic planning, research, and teaching while showcasing how the framework can amplify research impact, foster industry partnerships, and enhance sustainability efforts.  
-2. **Building Open Source Skills**  
-Build on other NORF projects such as TROPIC [@lakhzoum_norf_2023] to collaboratively develop tailored training programs for irish unviersities that address diverse disciplines and include both technical and non-technical open source skills.  
-3. **Fostering Industry Collaboration**  
-Provide guidelines and collaboration patterns on how to best co-create open source projects that involve academia and industry partners. Focus on examples that align with market trends and address real-world challenges, increasing research adoption and employability for students.  
-4. **Metrics and Recognition**  
-Implement advanced metrics to identify open source contributions and propose how irish universities might recognize impactful work.  
-5. **Global Networking**  
-Engage with international academic OSPOs to share best practices, collaborate on large-scale open source projects, and contribute to global standards for research and education.
+1. **Apply the Framework in Irish Universities**  
+   Pilot the implementation of the recommended open source framework in one or more Irish universities, leveraging Ireland’s leadership in establishing Europe’s first academic Open Source Program Office (OSPO). These pilots could focus on integrating open source principles into strategic planning, research, and teaching while showcasing how the framework can amplify research impact, foster industry partnerships, and enhance sustainability efforts. This would allow for the validation of its effectiveness, the collection of practical feedback, and the refinement of the framework for broader implementation.   
+2. **Build Open Source Skills**  
+   Build on other NORF projects such as TROPIC \[17\] to collaboratively develop tailored training programs for Irish universities that address diverse disciplines and include both technical and non-technical open source skills. A priority area identified by MOSS-I participants is open source licensing. Related skills should be integrated into programs overseen by the Vice President of Research and/or Technology Transfer Offices.   
+3. **Establish an MVP for University OSPO**   
+   Develop a set of requirements and guidelines for establishing a minimum viable Open Source Program Office (OSPO) that would support an Irish university. This would provide Irish universities with a clear roadmap for creating OSPOs that meet their specific needs, thereby enhancing their ability to manage OSS, drive innovation, and support collaboration.  
+4. **Foster Industry Collaboration**  
+   Provide guidelines and collaboration patterns on how to best co-create open source projects that involve academia and industry partners. Focus on examples that align with market trends and address real-world challenges, increasing research adoption and employability for students.  
+5. **Develop Metrics and Recognition**  
+   Implement advanced metrics to identify open source contributions and propose how Irish universities might recognize impactful work.  
+6. **Engage in Global Networking**  
+   Engage with international academic OSPOs to share best practices, collaborate on large-scale open source projects, and contribute to global standards for research and education.
 
-# Acknowledgements
+# Acknowledgments
 
-<!-- Add in acknowledgements - individuals and institution logos -->
+This document was an output from the [Lero's MOSS-I project](https://sfi-lero.github.io/OSPO/projects/moss-i/) and was funded by the National Open Research Forum (NORF). For more information about NORF and its initiatives, please visit [www.norf.ie](www.norf.ie).
+
+The authors would also like to thank the following members of the Irish academic community, who provided invaluable feedback and contributions to the MOSS-I project:
+
+* **Dermot Lynott**, Maynooth University  
+* **Dounia Lakhzoum**, Maynooth University  
+* **Catherine Hurley**, Maynooth University  
+* **Carlos Tighe**, University of Galway  
+* **Barak Pearlmutter**, Maynooth University  
+* **Felipe Arruda Pontes**, University of Galway  
+* **Puneet Saidha**, University of Limerick  
+* **Samantha Williams**, Trinity College Dublin  
+* **Anthony Morrissey**, University College Cork  
+* **James O'Sullivan**, South East Technological University  
+* **Jen Smith**, University of Galway  
+* **Armin Straube**, University of Limerick  
+* **Niamh Brennan**, Trinity College Dublin  
+* **Oksana Dereza**, University of Galway
 
 \newpage
 # References
