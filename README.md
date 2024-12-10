@@ -1,15 +1,17 @@
-# MOSS-I project document outputs: Framework for Managing University Open Source Software
- 👉 [Download the latest **Framework for Managing University Open Source Software** PDF](https://github.com/SFI-Lero/MOSS-I/tree/main/output/document.pdf)
+# Framework for Managing University Open Source Software
+ 👉 [Download the latest **Framework for Managing University Open Source Software** PDF](https://github.com/SFI-Lero/MOSS-I/tree/main/output/FrameworkManagingUniversityOSS.pdf)
 
-## Summary of the MOSS-I project
-Summary here
+Welcome to the source repostory for the _"Framework for Managing University Open Source Software"_ document! This document is a results of the [NORF](https://norf.ie/) funded [MOSS-I project](https://github.com/OpenIrelandNetwork/MOSS-I). We aim to continuously update and improve the document, and welcome contributions from the community. Furthermore, we encourage individuals and organisations to fork this repository, to create formulate their distinct versions.  
 
 ## Repository organisation 
 ### Documents and outputs 
-This repository contains the main source for the **Framework for Managing University Open Source Software** document in the form of a markdown document in the main folder called `document.md` (to learn more about markdown, see [this "cheatsheet"](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)).  Using the processes detailed below this markdown file is converted to a PDF file called [`document.pdf`](https://github.com/SFI-Lero/MOSS-I/tree/main/output/document.pdf) contained in the [`output`](https://github.com/SFI-Lero/MOSS-I/tree/main/output) folder.
+This repository contains the main source for the **Framework for Managing University Open Source Software** document in the form of a markdown document in the main folder called `FrameworkManagingUniversityOSS.md` (to learn more about markdown, see [this "cheatsheet"](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)).  Using the processes detailed below this markdown file is converted to a PDF file called [`FrameworkManagingUniversityOSS.pdf`](https://github.com/SFI-Lero/MOSS-I/tree/main/output/FrameworkManagingUniversityOSS.pdf) contained in the [`output`](https://github.com/SFI-Lero/MOSS-I/tree/main/output) folder.
 
 ### Template 
 The PDF document produced here is generated from the markdown using a custom version of the [Eisvogel template](https://github.com/Wandmalfarbe/pandoc-latex-template). The main changes implemented here are the rendering of authors and DOI links. The template used here can be found under `/assets/templates` folder and is called [eisvogel.tex](https://github.com/SFI-Lero/MOSS-I/tree/main/assets/templates/eisvogel.tex). 
+
+### Reference style
+The reference style currently used is the IEEE style as per the `ieee.csl` file provided in the main repository. Other styles may be found in the [Citation Style Language - Style Repository](https://github.com/citation-style-language/styles). 
 
 ### GitHub action 
 The GitHub is defined by a YAML file (see below) found in the `.github/workflows` folder. The action (to convert the markdown document to a pdf file) is triggered uppon a push to the repository. 
@@ -17,15 +19,15 @@ The GitHub is defined by a YAML file (see below) found in the `.github/workflows
 ## Locally processing the markdown to PDF conversion
 Assuming [pandoc](https://pandoc.org/installing.html) is installed you can run the following locally (from a terminal navigated to the main project folder) to build the PDF:
 ```
-pandoc document.md --output=output/document.pdf --template assets/templates/eisvogel.tex --listings --number-sections --bibliography=bibliography.bib --citeproc 
+pandoc FrameworkManagingUniversityOSS.md --output=output/FrameworkManagingUniversityOSS.pdf --template assets/templates/eisvogel.tex --listings --number-sections --bibliography=bibliography.bib --citeproc --csl ieee.csl
 ```
 
 ## GitHub action based markdown to PDF conversion
-The below reproduces a so called [YAML](https://en.wikipedia.org/wiki/YAML) file which configures a GitHub action to trigger the updating of the repository hosted PDF when a _push_ occurs. Here the YAML file is called `markdown2pdf.yml` and is found in the [`.github/workflows`](https://github.com/SFI-Lero/MOSS-I/tree/main/.github/workflows) folder. Glossing over the YAML file one may see it sets up pandoc, issues a command using pandoc to export the `document.md` file to a file called `document.pdf` using the template called `eisvogel.tex`. Once completed the next step configures git and adds and commits the updated PDF file. Finally the PDF is pushes to the repository.  
+The below reproduces a so called [YAML](https://en.wikipedia.org/wiki/YAML) file which configures a GitHub action to trigger the updating of the repository hosted PDF when a _push_ occurs. Here the YAML file is called `markdown2pdf.yml` and is found in the [`.github/workflows`](https://github.com/SFI-Lero/MOSS-I/tree/main/.github/workflows) folder. Glossing over the YAML file one may see it sets up pandoc, issues a command using pandoc to export the `FrameworkManagingUniversityOSS.md` file to a file called `FrameworkManagingUniversityOSS.pdf` using the template called `eisvogel.tex`. Once completed the next step configures git and adds and commits the updated PDF file. Finally the PDF is pushes to the repository.  
 ```
 name: markdown2pdf
 
-on: push
+on: [push, pull_request]
 
 jobs:
   convert_via_pandoc:
@@ -34,7 +36,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: docker://pandoc/extra:3.5
         with:
-          args: document.md --output=output/document.pdf --template assets/templates/eisvogel.tex --listings --number-sections --bibliography=bibliography.bib --citeproc 
+          args: FrameworkManagingUniversityOSS.md --output=output/FrameworkManagingUniversityOSS.pdf --template assets/templates/eisvogel.tex --listings --number-sections --bibliography=bibliography.bib --citeproc --csl ieee.csl
       - uses: actions/upload-artifact@v4
         with:
           name: output
@@ -42,6 +44,7 @@ jobs:
       - name: Commit files # transfer the new pdf files back into the repository
         run: |
           git config --local user.name "Kevin-Mattheus-Moerman"
+          git config --local user.email "kevin.moerman@gmail.com"
           git add .
           git commit -m "Updating pdfs"
       - name: Push changes # push the output folder to your repo

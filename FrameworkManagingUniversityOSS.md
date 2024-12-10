@@ -1,5 +1,5 @@
 ---
-title: "Framework for Managing University Open Source Software "
+title: "Framework for Managing University Open Source Software"
 author:
 - name: Aoife Tierney
   affiliation: 1
@@ -46,8 +46,8 @@ affiliations:
     name: University of Limerick
   - index: 6
     name: Dublin City University
-header-right: "v1.0.0, 10/12/2024"
-subject: "Markdown"
+header-right: "v1.0"
+subject: "Open Source Software, Irish Universities"
 keywords: [Open source, Irish Universities]
 lang: "en"
 toc: true,
@@ -61,8 +61,8 @@ biblatex: false,
 doi: "10.5281/zenodo.3235286"
 colorlinks: true,
 orcidicon: "assets/images/icons/ORCID-iD_icon_16x16.png"
-license_text: "CC BY-SA 4.0"
-license_link: "https://creativecommons.org/licenses/by-sa/4.0/"
+license_text: "CC BY 4.0"
+license_link: "https://creativecommons.org/licenses/by/4.0/"
 ...
 
 # Introduction
@@ -293,8 +293,8 @@ The establishment of an open source framework is pivotal for universities aiming
 1. **Apply the Framework in Irish Universities**  
    Pilot the implementation of the recommended open source framework in one or more Irish universities, leveraging Ireland’s leadership in establishing Europe’s first academic Open Source Program Office (OSPO). These pilots could focus on integrating open source principles into strategic planning, research, and teaching while showcasing how the framework can amplify research impact, foster industry partnerships, and enhance sustainability efforts. This would allow for the validation of its effectiveness, the collection of practical feedback, and the refinement of the framework for broader implementation.   
 2. **Build Open Source Skills**  
-   Build on other NORF projects such as TROPIC \[17\] to collaboratively develop tailored training programs for Irish universities that address diverse disciplines and include both technical and non-technical open source skills. A priority area identified by MOSS-I participants is open source licensing. Related skills should be integrated into programs overseen by the Vice President of Research and/or Technology Transfer Offices.   
-3. **Establish an MVP for University OSPO**   
+   Build on other NORF projects such as TROPIC [@lakhzoum_norf_2023] to collaboratively develop tailored training programs for Irish universities that address diverse disciplines and include both technical and non-technical open source skills. A priority area identified by MOSS-I participants is open source licensing. Related skills should be integrated into programs overseen by the Vice President of Research and/or Technology Transfer Offices.   
+3. **Establish an MVP for University OSPO**  
    Develop a set of requirements and guidelines for establishing a minimum viable Open Source Program Office (OSPO) that would support an Irish university. This would provide Irish universities with a clear roadmap for creating OSPOs that meet their specific needs, thereby enhancing their ability to manage OSS, drive innovation, and support collaboration.  
 4. **Foster Industry Collaboration**  
    Provide guidelines and collaboration patterns on how to best co-create open source projects that involve academia and industry partners. Focus on examples that align with market trends and address real-world challenges, increasing research adoption and employability for students.  
@@ -305,7 +305,7 @@ The establishment of an open source framework is pivotal for universities aiming
 
 # Acknowledgments
 
-This document was an output from the [Lero's MOSS-I project](https://sfi-lero.github.io/OSPO/projects/moss-i/) and was funded by the National Open Research Forum (NORF). For more information about NORF and its initiatives, please visit [www.norf.ie](www.norf.ie).
+This document was an output from the [Lero's MOSS-I project](https://sfi-lero.github.io/OSPO/projects/moss-i/) and was funded by the National Open Research Forum (NORF). For more information about NORF and its initiatives, please visit the NORF website: [www.norf.ie](www.norf.ie).
 
 The authors would also like to thank the following members of the Irish academic community, who provided invaluable feedback and contributions to the MOSS-I project:
 
