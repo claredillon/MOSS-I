@@ -74,7 +74,7 @@ license_link: "https://creativecommons.org/licenses/by-sa/4.0/"
 > It provides us with streaming media. It is in our cars. It runs Europe’s air traffic control. The chances are that, in any new project involving software, 
 > from kitchen appliances, through web-based public services to highly specialised industrial tools, most of the code will be based on open source.”
 >
-> – European Commission Open Source Strategy 2020-2023
+> – European Commission Open Source Strategy 2020-2023 
 
 Open Source Software (OSS) is the foundation of today’s digital economy, powering critical innovations across industries, from artificial intelligence and quantum computing to cloud technologies and data analytics. For universities, OSS offers a strategic opportunity to enhance research capabilities, accelerate technological advancements, and enable valuable knowledge transfer that collectively generates both economic and social impact. This is particularly relevant in the Irish university sector, where fostering knowledge transfer and innovation can have a direct impact on national economic growth.
 
