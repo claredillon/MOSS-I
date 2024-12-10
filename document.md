@@ -94,6 +94,7 @@ Open source software (OSS) refers to software with source code that is made publ
 Open Source Hardware is also an important topic with related opportunities and challenges, but for the purposes of this document we are focusing on open source software. 
 
 # Why Is Open Source So Important?
+![Why open source is important.](assets/images/MOSSI-OS-Importance.jpg)
 
 **Open source is in everything, everywhere**. Open source enables the frictionless reuse of software. As a result, it’s used everywhere. The majority of the code in all code bases is open source  [@OSSRA_1].. Therefore, even if a project isn’t intended to be open source, it’s crucial to understand the risks, obligations, and security considerations that come with adopting open source projects to ensure responsible use and compliance. Understanding OSS adoption is essential for maintaining secure and efficient software ecosystems.
 
@@ -117,9 +118,7 @@ Open Source Hardware is also an important topic with related opportunities and c
 # Open Source In Academia
 
 ## Why Is Open Source Important In An Academic Context?
-![Why open source is important in academia.](assets/images/MOSSI-OSFramework-Essential.jpg)
-
-<!-- This image will be updated when available. Image above is placeholder --> 
+![Why open source is important in academia.](assets/images/MOSSI-OS-Importance-Academia.jpg)
 
 ## University Relevance & Leadership
 
