@@ -1,6 +1,6 @@
 name: markdown2pdf
 
-on: push
+on: [push, pull_request]
 
 jobs:
   convert_via_pandoc:
