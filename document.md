@@ -3,46 +3,50 @@ title: "Framework for Managing University Open Source Software "
 author:
 - name: Aoife Tierney
   affiliation: 1
+  orcid: 0009-0009-8699-7043
 - name: Carlos Tighe
-  affiliation: 2
+  affiliation: 2,3
+  orcid: 0000-0002-5934-9552
 - name: Clare Dillon
-  affiliation: 3,6
+  affiliation: 2,4
   orcid: 0009-0008-6205-0296
 - name: Conor Morris 
-  affiliation: 4
+  affiliation: 5
 - name: Ian Gallivan
-  affiliation: 3
-- name: John Whelan
-  affiliation: 1
-- name: Kevin Moerman
-  affiliation: 3,6
-  orcid: 0000-0003-3768-4269
-- name: Klaas-Jan Stol
-  affiliation: 5,6
-- name: Lorraine Morgan
-  affiliation: 3
-- name: Martina Prendergast
-  affiliation: 4,6
-- name: Michael Meagher
-  affiliation: 4
-- name: Noel O'Connor
   affiliation: 2
+  orcid: 0009-0004-5774-3857
+- name: Kevin Moerman
+  affiliation: 2,4
+  orcid: 0000-0003-3768-4269
+- name: Lorraine Morgan
+  affiliation: 2,4
+  orcid: 0000-0002-3803-544X
+- name: Martina Prendergast
+  affiliation: 4,5
+  orcid: 0009-0009-0848-7638
+- name: Michael Meagher
+  affiliation: 5
+  orcid: 0009-0005-0804-8142
+- name: Noel O'Connor
+  affiliation: 6
+  orcid: 0000-0002-4033-9135
 - name: Patrick Healy
-  affiliation: 4,6  
+  affiliation: 4,5
+  orcid: 0000-0002-3824-7442
 affiliations:
   - index: 1
     name: Trinity College Dublin
   - index: 2
-    name: Insight Centre
-  - index: 3
     name: University of Galway
+  - index: 3
+    name: Insight Centre
   - index: 4
-    name: University of Limerick
-  - index: 5
-    name: University College Cork
-  - index: 6
     name: LERO, the SFI Centre for Software Research
-header-right: "v1.0.0, 05/12/2024"
+  - index: 5
+    name: University of Limerick
+  - index: 6
+    name: Dublin City University
+header-right: "v1.0.0, 10/12/2024"
 subject: "Markdown"
 keywords: [Open source, Irish Universities]
 subtitle: "NORF Project for Irish Universities"
