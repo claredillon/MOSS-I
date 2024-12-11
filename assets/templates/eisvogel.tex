@@ -963,8 +963,8 @@ $else$
   \ihead*{$if(header-left)$$header-left$$else$$title$$endif$}
   \chead*{$if(header-center)$$header-center$$else$$endif$}  
   \ohead*{$if(header-right)$\tiny $header-right$$else$$date$$endif$}  
-  \ifoot*{$if(doi)$\tiny doi: \href{https://doi.org/$doi$}{$doi$} $else$$endif$}
-  \cfoot*{$if(license_text)$\tiny license: \href{$license_link$}{$license_text$}$else$$endif$}
+  \ifoot*{$if(doi)$\tiny DOI: \href{https://doi.org/$doi$}{$doi$} $else$$endif$}
+  \cfoot*{$if(license_text)$\tiny License: \href{$license_link$}{$license_text$}$else$$endif$}
   \ofoot*{$if(footer-right)$$footer-right$$else$\thepage$endif$}
   \addtokomafont{pageheadfoot}{\upshape}
 }
@@ -989,6 +989,10 @@ $endif$
 $endif$
 $endif$
 
+$if(endpage)$
+\usepackage{pdfpages}
+$endif$
+
 %%
 %% end added
 %%
@@ -1003,7 +1007,7 @@ $else$
 $if(titlepage)$
 \begin{titlepage}
 $if(titlepage-background)$
-\newgeometry{top=2cm, right=4cm, bottom=3cm, left=4cm}
+\newgeometry{top=1cm, right=3cm, bottom=3cm, left=2.5cm}
 $else$
 \newgeometry{left=6cm}
 $endif$
@@ -1026,10 +1030,11 @@ $endif$
 $if(titlepage-background)$
 % The titlepage with a background image has other text spacing and text size
 {
+  
   \setstretch{1}
   %\vfill
   %\vskip -20em
-  \noindent {\huge \textbf{\textsf{$title$}}}
+  \noindent {\Huge \textbf{\textsf{$title$}}}
   $if(subtitle)$
   \vskip 1em
   {\Large \textsf{$subtitle$}}
@@ -1039,13 +1044,14 @@ $if(titlepage-background)$
   \setstretch{0}
   \noindent {$for(author)$\textbf{$author.name$}$if(author.orcid)$ \href{https://orcid.org/$author.orcid$}{\includegraphics[width=0.75em]{$orcidicon$}} $endif$\textsuperscript{$author.affiliation$}$sep$, $endfor$}
   \end{flushleft}
-    
+
+  \vskip 24em
   \begin{flushleft}
   \setstretch{0}
-  \noindent {\small \textit{$for(affiliations)$$affiliations.index$. $affiliations.name$\newline $endfor$}}
+  \noindent {\small $for(affiliations)$$affiliations.index$. $affiliations.name$\newline $endfor$}
   \end{flushleft}
 
-  \noindent {$if(doi)$doi: \href{https://doi.org/$doi$}{$doi$} $else$$endif$} 
+  \noindent {$if(doi)$DOI: \href{https://doi.org/$doi$}{$doi$} $else$$endif$} 
 
   \noindent {$if(license_text)$license: \href{$license_link$}{$license_text$}$else$$endif$} 
   \vfill
@@ -1188,8 +1194,19 @@ $else$
 $endif$
 $endif$
 
-$for(include-after)$
-$include-after$
-$endfor$
+%%
+%% begin endpage
+%%
+
+$if(endpage)$
+\includepdf[pages=-]{$endpage$}
+% \newpage
+% \tikz[remember picture,overlay] \node[inner sep=0pt] at (current page.center){\includegraphics[width=\paperwidth,height=\paperheight]{$endpage-background$}};
+$endif$
+
+%%
+%% end endpage
+%%
+
 
 \end{document}

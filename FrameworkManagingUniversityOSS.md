@@ -1,5 +1,6 @@
 ---
 title: "Framework for Managing University Open Source Software"
+subtitle: "An Initiative to Manage OpenSource Software in Irish Universities (MOSS-I)"
 author:
 - name: Aoife Tierney
   affiliation: 1
@@ -54,7 +55,9 @@ toc: true,
 toc-own-page: true,
 titlepage: true,
 titlepage-rule-color: "360049"
-titlepage-background: "assets/backgrounds/background1.pdf"
+titlepage-text-color: "FFFFFF"
+titlepage-background: "assets/backgrounds/FrontCover_plain.pdf"
+endpage: "assets/backgrounds/BackCover.pdf"
 bibliograpy: "bibliography.bib"
 biblio-title: "References"
 biblatex: false,
