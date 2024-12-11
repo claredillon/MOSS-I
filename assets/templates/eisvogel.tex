@@ -989,9 +989,9 @@ $endif$
 $endif$
 $endif$
 
-$if(endpage)$
-\usepackage{pdfpages}
-$endif$
+% $if(endpage)$
+% \usepackage{pdfpages}
+% $endif$
 
 %%
 %% end added
@@ -1199,9 +1199,10 @@ $endif$
 %%
 
 $if(endpage)$
-\includepdf[pages=-]{$endpage$}
-% \newpage
-% \tikz[remember picture,overlay] \node[inner sep=0pt] at (current page.center){\includegraphics[width=\paperwidth,height=\paperheight]{$endpage-background$}};
+% \includepdf[pages=-]{$endpage$}
+\newpage
+\clearpage\thispagestyle{empty}
+\tikz[remember picture,overlay] \node[inner sep=0pt] at (current page.center){\includegraphics[width=\paperwidth,height=\paperheight]{$endpage$}};
 $endif$
 
 %%
