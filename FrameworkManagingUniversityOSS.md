@@ -179,7 +179,7 @@ As open source becomes central to open science and research, universities must e
 
 # Who Engages With a University Open Source Framework?
 
-![University roles that interact with an open source framework.](assets/images/MOSSI-OSFramework-Essential.jpg)
+![University roles that interact with an open source framework.](assets/images/MOSSI-OSFramework-Audience.jpg)
 
 There is a diverse set of people who can interact with an OSS framework, including:
 
